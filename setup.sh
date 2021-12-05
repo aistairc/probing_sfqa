@@ -18,7 +18,7 @@ cp scripts/SentEval/* SentEval/examples/
 
 # set up BuboQA
 git clone https://github.com/castorini/BuboQA.git
-cp -R -r simple-qa-analysis/diff/BuboQA/ ./BuboQA/
+cp -R -r simple-qa-analysis/diff/BuboQA/ ./
 cd BuboQA
 python -c "import nltk;nltk.download('treebank');nltk.download('stopwords')"
 sh setup.sh
